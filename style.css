@@ -1,0 +1,44 @@
+body {
+  font-family: 'Josefin Slab', serif;
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.helloMessage {
+  padding: 30px;
+  width: 30%;
+  margin: auto auto;
+}
+@media (max-width: 991.98px) {
+  .helloMessage {
+    padding: 15px;
+    width: 80%;
+    margin: auto auto;
+  }
+}
+
+.contact ul {
+  color: white;
+  text-decoration: none;
+  font-size: 3em;
+  list-style-type: none;
+}
+.contact li {
+  margin-left: 0;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.expertise {
+  color: black;
+}
+
+#particles-js {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
