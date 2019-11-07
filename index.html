@@ -3,10 +3,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Josefin+Slab:400,700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/8838a4cfa3.js" crossorigin="anonymous"></script>
     <link
       rel="stylesheet"
@@ -19,10 +16,12 @@
   </head>
   <body>
     <div id="particles-js"></div>
+    <!-- SECTION Intro -->
     <section class="d-flex flex-column align-items-center mt-4">
       <div class="profile text-center">
         <img class="rounded-circle" src="profilPic.jpg" style="width: 80; height:80 " alt="" />
         <div><h2>Gregorius Jimmy</h2></div>
+        <p>Full-Stack Web Developer</p>
       </div>
       <div class="helloMessage border border-white mt-3">
         <h2 class="border-bottom">Hello there..</h2>
@@ -33,49 +32,126 @@
           because this is my PASSION, I really love it and never stop to learning
         </p>
       </div>
+      <!-- CONTACT -->
       <div class="contact mt-3 text-center">
         <ul class="d-flex flex-row pl-0 justify-content-around">
-          <li><a href=""></a><i class="fab fa-facebook"></i></li>
-          <li><a href=""></a><i class="fab fa-github"></i></li>
-          <li><a href=""></a><i class="fab fa-linkedin"></i></li>
+          <li>
+            <a target="_blank" href="https://www.facebook.com/gregorius.jimmy"></a
+            ><i class="fab fa-facebook"></i>
+          </li>
+          <li>
+            <a target="_blank" href="https://github.com/gregoriusjimmy"></a
+            ><i class="fab fa-github"></i>
+          </li>
+          <li>
+            <a target="_blank" href="https://www.linkedin.com/in/gregorius-jimmy-77721416a/"></a
+            ><i class="fab fa-linkedin"></i>
+          </li>
         </ul>
         <h4>feel free to contact me.</h4>
       </div>
     </section>
-    <section class="container">
-      <h1 class="mb-5 border-bottom">Skilss</h1>
+    <!-- SECTION About Me -->
+    <section class="container mt-5">
+      <div class="row">
+        <!-- WHat do i do -->
+        <div class="col-lg-6">
+          <h1>What do I do?</h1>
+          <p>I build things on internet, I will make the BEST WEBSITE. for you</p>
+        </div>
+        <!-- SKILSS -->
+        <div class="col-lg-6">
+          <h1>Skilss</h1>
+          <div class="grid-container text-center">
+            <div class="card">
+              <div class="card-body">
+                <img src="https://img.icons8.com/color/48/000000/nodejs.png" />
+                <h5 class="card-title">NodeJS</h5>
+                <!-- <p class="card-text">
+                    Combined with Express.js I can make a server API for the front-end and store data to
+                    the database
+                  </p> -->
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <img src="https://img.icons8.com/color/48/000000/html-5.png" />
+                <h5 class="card-title">Html 5</h5>
+                <!-- <p class="card-text">Make a semantic code</p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-    <section class="container">
+    <!-- SECTION Projects -->
+    <section id="projects" class="container">
       <h1 class="mb-5 border-bottom">Projects</h1>
       <div class="row flex-row-reverse">
-        <div class="col-md-6">
+        <div class="col-lg-6 ">
           <img src="project1.jpg" alt="" style="width: 400px;" />
         </div>
-        <div class="col-md-6">
+        <!-- SMART BRAIN -->
+        <div class="col-lg-6">
           <h2>Smart Brain</h2>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe error magni animi
-            placeat nostrum unde molestias doloribus nam debitis iusto corporis, beatae repellat
-            officia quidem aperiam iure pariatur aspernatur? Dolor pariatur porro labore molestiae.
-            Eum eos hic magnam numquam officia!
+            This is a face recognition app using machine learning API that Clarifai provided, the
+            server receive the user's url photo and ask Clarifai machine learning model to detect
+            the face within the photo. user must register first to be able to use this app and then
+            user data will be stored in the database. this project made using React, Node for the
+            back-end and Postgresql for the database
           </p>
+
+          <a target="_blank" href="https://github.com/gregoriusjimmy/SmartBrain-Project"
+            ><button class="viewButton">Source Code</button>
+          </a>
+          <a target="_blank" href="https://smart-brain-faceclick.herokuapp.com/"
+            ><button class="viewButton">See Live!</button>
+          </a>
         </div>
-        <div class="col-md-6">
-          <img src="project1.jpg" alt="" style="width: 400px;" />
+        <div class="col-lg-6 ">
+          <img src="project2.jpg" alt="" style="width: 400px; " />
         </div>
-        <div class="col-md-6">
-          <h2>TITLE</h2>
+        <!-- ROBO FRIENDS -->
+        <div class="col-lg-6">
+          <h2>Robo Friends</h2>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe error magni animi
-            placeat nostrum unde molestias doloribus nam debitis iusto corporis, beatae repellat
-            officia quidem aperiam iure pariatur aspernatur? Dolor pariatur porro labore molestiae.
-            Eum eos hic magnam numquam officia!
+            This is just a simple project made using React, to demonstrate react components, state
+            and how to do fetch in react. user can search Robots name and the robots card that
+            contain name that user had input will be displayed
           </p>
+
+          <a target="_blank" href="https://github.com/gregoriusjimmy/robofriends"
+            ><button class="viewButton">Source Code</button>
+          </a>
+          <a target="_blank" href="https://gregoriusjimmy.github.io/robofriends/"
+            ><button class="viewButton">See Live!</button>
+          </a>
+        </div>
+        <div class="col-lg-6">
+          <img src="project3.jpg" alt="" style="width: 400px;" />
+        </div>
+        <!-- DING DONG CODE -->
+        <div class="col-lg-6">
+          <h2>Ding Dong Code (Blog)</h2>
+          <p>
+            Using Gatsby.js and GraphQL I'am able to make a dynamic blog, the owner of the blog can
+            easily write an their new blog using just a Markdown or CMS (Content Management System)
+            that Contentful provided and the post will be automatically updated. The server hosted
+            in Netlify.
+          </p>
+          <a target="_blank" href="https://github.com/gregoriusjimmy/dingdongcode-website-PUBLIC"
+            ><button class="viewButton">Source Code</button>
+          </a>
+          <a target="_blank" href="https://gifted-elion-ebd89e.netlify.com/"
+            ><button class="viewButton">See Live!</button>
+          </a>
         </div>
       </div>
     </section>
 
     <!-- SCRIPT  -->
+    <!-- <script src="./vanilla-tilt.min.js"></script> -->
     <script src="./particles.min.js "></script>
     <script src="./app.js"></script>
     <script
