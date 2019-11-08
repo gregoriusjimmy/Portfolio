@@ -3,7 +3,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap"
+      rel="stylesheet"
+    />
     <script src="https://kit.fontawesome.com/8838a4cfa3.js" crossorigin="anonymous"></script>
     <link
       rel="stylesheet"
@@ -16,21 +19,21 @@
   </head>
   <body>
     <div id="particles-js"></div>
-    <!-- SECTION Intro -->
-    <section class="d-flex flex-column align-items-center mt-4">
+    <!-- SECTION Greetings -->
+    <section id="greetings " class="d-flex flex-column align-items-center mt-4">
       <div class="profile text-center">
         <img class="rounded-circle" src="profilPic.jpg" style="width: 80; height:80 " alt="" />
         <div><h2>Gregorius Jimmy</h2></div>
         <p>Full-Stack Web Developer</p>
       </div>
       <div class="helloMessage border border-white mt-3">
-        <h2 class="border-bottom">Hello there..</h2>
+        <h1 class="border-bottom mb-3" style="font-weight: 700;">Hello there!!</h1>
         <p>
-          I'm a self-taught <strong>Full-Stack Web Developer</strong>, I'd like to working with you!
-          I love to work with a team also can work by myself for a simple project. <br /><br />
-          <strong>Why work with me?</strong><br />
-          because this is my PASSION, I really love it and never stop to learning
+          I'm a self-taught Full-Stack Web Developer.<strong> I BUILD THINGS ON INTERNET.</strong> I
+          love to work with a team also can work by myself for a simple project. <br />
+          <strong>AND I'D LIKE TO WORKING WITH YOU!</strong>
         </p>
+        <!-- I love to work with a team also can work by myself for a simple project. -->
       </div>
       <!-- CONTACT -->
       <div class="contact mt-3 text-center">
@@ -48,38 +51,49 @@
             ><i class="fab fa-linkedin"></i>
           </li>
         </ul>
-        <h4>feel free to contact me.</h4>
       </div>
     </section>
     <!-- SECTION About Me -->
-    <section class="container mt-5">
+    <section id="aboutme" class="container mt-5">
       <div class="row">
-        <!-- WHat do i do -->
-        <div class="col-lg-6">
-          <h1>What do I do?</h1>
-          <p>I build things on internet, I will make the BEST WEBSITE. for you</p>
+        <!-- WHY WORKING WITH ME -->
+        <div class="col-lg-6 workWithMe">
+          <h1 style="font-weight: 700;">WHY WORK WITH ME?</h1>
+          <p>
+            I’m gonna be honest, I’m not the best developer in the world, likable to memorize all of
+            the syntax and docs, but I have something in me that makes me keeps motivated, learning,
+            and improving myself. I love to analyze, find out how things work, and thinking outside
+            the box so it helps me to solve many problems. Most Importantly this is my greatest
+            passion. There’s nothing I enjoy more than build things with other people, sharing ideas
+            and knowledge.
+          </p>
         </div>
-        <!-- SKILSS -->
+        <!-- EXPERTISE & TOOLS -->
         <div class="col-lg-6">
-          <h1>Skilss</h1>
-          <div class="grid-container text-center">
-            <div class="card">
-              <div class="card-body">
-                <img src="https://img.icons8.com/color/48/000000/nodejs.png" />
-                <h5 class="card-title">NodeJS</h5>
-                <!-- <p class="card-text">
-                    Combined with Express.js I can make a server API for the front-end and store data to
-                    the database
-                  </p> -->
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-body">
-                <img src="https://img.icons8.com/color/48/000000/html-5.png" />
-                <h5 class="card-title">Html 5</h5>
-                <!-- <p class="card-text">Make a semantic code</p> -->
-              </div>
-            </div>
+          <h2>Expertise</h2>
+          <ul>
+            <li>
+              build a static and dynamic website such as landing page, blog, all your business needs
+            </li>
+            <li>Make a responsive web design</li>
+            <li>RESTful API</li>
+            <li>Working in Front-End & Back-End</li>
+            <li>Using databases</li>
+          </ul>
+          <h2>Tools</h2>
+          <div class="grid-container">
+            <span class="badge badge-light">HTML 5</span>
+            <span class="badge badge-light">CSS</span>
+            <span class="badge badge-light">Javascript</span>
+            <span class="badge badge-light">Bootstrap</span>
+            <span class="badge badge-light">NodeJS</span>
+            <span class="badge badge-light">ExpressJS</span>
+            <span class="badge badge-light">React</span>
+            <span class="badge badge-light">Gatsby</span>
+            <span class="badge badge-light">PostgreSQL</span>
+            <span class="badge badge-light">NPM</span>
+            <span class="badge badge-light">Git</span>
+            <span class="badge badge-light">Github</span>
           </div>
         </div>
       </div>
@@ -117,10 +131,9 @@
           <h2>Robo Friends</h2>
           <p>
             This is just a simple project made using React, to demonstrate react components, state
-            and how to do fetch in react. user can search Robots name and the robots card that
-            contain name that user had input will be displayed
+            and how to do fetch in react. User can search for the robot's name and the robots card
+            that contain name of user's input will be displayed
           </p>
-
           <a target="_blank" href="https://github.com/gregoriusjimmy/robofriends"
             ><button class="viewButton">Source Code</button>
           </a>
@@ -136,7 +149,7 @@
           <h2>Ding Dong Code (Blog)</h2>
           <p>
             Using Gatsby.js and GraphQL I'am able to make a dynamic blog, the owner of the blog can
-            easily write an their new blog using just a Markdown or CMS (Content Management System)
+            easily write their new blog using just a Markdown or CMS (Content Management System)
             that Contentful provided and the post will be automatically updated. The server hosted
             in Netlify.
           </p>
@@ -149,6 +162,25 @@
         </div>
       </div>
     </section>
+    <section id="contactme" class="mt-4">
+      <div>
+        <h3 class="text-center">Message Me</h3>
+        <form action="https://formspree.io/mnqqngqe" method="POST">
+          <div class="form-group mb-2">
+            <label for="youremail">Your email: </label>
+            <input class="form-control" id="youremail" type="email" name="_replyto" />
+          </div>
+          <div class="form-group">
+            <label for="yourMessage"> Your message: </label>
+            <textarea class="form-control" rows="3" id="yourMessage" name="message"></textarea>
+            <button class="btnSubmit float-right mt-2" type="submit">
+              Send
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <section id="footer" style="height:80px"></section>
 
     <!-- SCRIPT  -->
     <!-- <script src="./vanilla-tilt.min.js"></script> -->
