@@ -6,6 +6,9 @@ body {
   margin: 0;
   padding: 0;
 }
+#greetings {
+  height: 100vh;
+}
 
 #contactme div {
   margin: auto auto;
@@ -15,17 +18,11 @@ body {
 .helloMessage {
   line-height: 2rem;
   padding: 30px;
-  width: 30%;
-  margin: auto auto;
+  width: 80%;
 }
-@media (max-width: 991.98px) {
+@media (min-width: 767.98px) {
   .helloMessage {
     width: 50%;
-  }
-}
-@media (max-width: 767.98px) {
-  .helloMessage {
-    width: 80%;
   }
 }
 @media (min-width: 991.98px) {
@@ -34,6 +31,9 @@ body {
   }
   #contactme div {
     width: 70%;
+  }
+  .helloMessage {
+    width: 30%;
   }
 }
 #projects img {
@@ -60,9 +60,7 @@ body {
   margin-right: 20px;
   cursor: pointer;
 }
-.expertise {
-  color: black;
-}
+
 .grid-container {
   display: grid;
   grid-gap: 5px;

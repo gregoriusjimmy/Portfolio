@@ -14,19 +14,24 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Gregorius Jimmy</title>
   </head>
   <body>
     <div id="particles-js"></div>
     <!-- SECTION Greetings -->
-    <section id="greetings " class="d-flex flex-column align-items-center mt-4">
-      <div class="profile text-center">
-        <img class="rounded-circle" src="profilPic.jpg" style="width: 80; height:80 " alt="" />
+    <div id="greetings" class="d-flex flex-column justify-content-center align-items-center">
+      <div class="profile text-center mt-4">
+        <img
+          class="rounded-circle"
+          src="./assets/images/profilPic.jpg"
+          style="width: 80; height:80 "
+          alt=""
+        />
         <div><h2>Gregorius Jimmy</h2></div>
         <p>Full-Stack Web Developer</p>
       </div>
-      <div class="helloMessage border border-white mt-3">
+      <div class="helloMessage border border-white ">
         <h1 class="border-bottom mb-3" style="font-weight: 700;">Hello there!!</h1>
         <p>
           I'm a self-taught Full-Stack Web Developer.<strong> I BUILD THINGS ON INTERNET.</strong> I
@@ -36,7 +41,7 @@
         <!-- I love to work with a team also can work by myself for a simple project. -->
       </div>
       <!-- CONTACT -->
-      <div class="contact mt-3 text-center">
+      <div class="contact text-center">
         <ul class="d-flex flex-row pl-0 justify-content-around">
           <li>
             <a target="_blank" href="https://www.facebook.com/gregorius.jimmy"></a
@@ -52,20 +57,21 @@
           </li>
         </ul>
       </div>
-    </section>
+    </div>
     <!-- SECTION About Me -->
-    <section id="aboutme" class="container mt-5">
+    <div id="aboutme" class="container mt-5">
       <div class="row">
         <!-- WHY WORKING WITH ME -->
         <div class="col-lg-6 workWithMe">
           <h1 style="font-weight: 700;">WHY WORK WITH ME?</h1>
           <p>
             I’m gonna be honest, I’m not the best developer in the world, likable to memorize all of
-            the syntax and docs, but I have something in me that makes me keeps motivated, learning,
-            and improving myself. I love to analyze, find out how things work, and thinking outside
-            the box so it helps me to solve many problems. Most Importantly this is my greatest
-            passion. There’s nothing I enjoy more than build things with other people, sharing ideas
-            and knowledge.
+            the syntax and docs, but I have something in me that makes me
+            <strong> keeps motivated, learning, and improving myself </strong>. I love to
+            <strong>analyze</strong>, find out how things work, and
+            <strong>thinking outside the box</strong> so it helps me to solve many problems. Most
+            Importantly this is <strong>MY GREATEST PASSION.</strong> There’s nothing I enjoy more
+            than build things with other people, sharing ideas and knowledge.
           </p>
         </div>
         <!-- EXPERTISE & TOOLS -->
@@ -78,7 +84,7 @@
             <li>Make a responsive web design</li>
             <li>RESTful API</li>
             <li>Working in Front-End & Back-End</li>
-            <li>Using databases</li>
+            <li>Able to use databases</li>
           </ul>
           <h2>Tools</h2>
           <div class="grid-container">
@@ -97,13 +103,13 @@
           </div>
         </div>
       </div>
-    </section>
+    </div>
     <!-- SECTION Projects -->
-    <section id="projects" class="container">
+    <div id="projects" class="container">
       <h1 class="mb-5 border-bottom">Projects</h1>
       <div class="row flex-row-reverse">
         <div class="col-lg-6 ">
-          <img src="project1.jpg" alt="" style="width: 400px;" />
+          <img src="./assets/images/project1.jpg" alt="" style="width: 400px;" />
         </div>
         <!-- SMART BRAIN -->
         <div class="col-lg-6">
@@ -124,7 +130,7 @@
           </a>
         </div>
         <div class="col-lg-6 ">
-          <img src="project2.jpg" alt="" style="width: 400px; " />
+          <img src="./assets/images/project2.jpg" alt="" style="width: 400px; " />
         </div>
         <!-- ROBO FRIENDS -->
         <div class="col-lg-6">
@@ -142,7 +148,7 @@
           </a>
         </div>
         <div class="col-lg-6">
-          <img src="project3.jpg" alt="" style="width: 400px;" />
+          <img src="./assets/images/project3.jpg" alt="" style="width: 400px;" />
         </div>
         <!-- DING DONG CODE -->
         <div class="col-lg-6">
@@ -161,8 +167,9 @@
           </a>
         </div>
       </div>
-    </section>
-    <section id="contactme" class="mt-4">
+    </div>
+    <!-- SECTION Contact Me -->
+    <div id="contactme" class="mt-4">
       <div>
         <h3 class="text-center">Message Me</h3>
         <form action="https://formspree.io/mnqqngqe" method="POST">
@@ -179,21 +186,17 @@
           </div>
         </form>
       </div>
-    </section>
-    <section id="footer" style="height:80px"></section>
+    </div>
+    <!-- margin -->
+    <div id="footer" style="height:80px"></div>
 
     <!-- SCRIPT  -->
     <!-- <script src="./vanilla-tilt.min.js"></script> -->
     <script src="./particles.min.js "></script>
-    <script src="./app.js"></script>
+    <script src="./assets/js/app.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
       crossorigin="anonymous"
     ></script>
     <script
